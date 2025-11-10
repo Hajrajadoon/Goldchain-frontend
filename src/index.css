@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-black text-white; }
+.card { @apply bg-gray-900 p-5 rounded shadow-lg; }
