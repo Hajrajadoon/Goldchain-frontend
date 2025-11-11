@@ -1,12 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css"; // optional if you have CSS
-import App from "./App"; // your App component
+import App from "./App";
+import "./index.css";
 
-// Mount React app into the HTML
-ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
-).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
